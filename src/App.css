@@ -1,0 +1,29 @@
+.main {
+  padding-top: 100px;
+}
+
+.title {
+  margin-bottom: 13px;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 42px;
+  color: #ffffff;
+}
+
+.text {
+  margin-bottom: 50px;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.box {
+  display: flex;
+  align-items: baseline;
+  gap: 0 20px;
+}
+
+.box__description {
+  margin-bottom: 50px;
+  font-size: 18px;
+  line-height: 24px;
+}

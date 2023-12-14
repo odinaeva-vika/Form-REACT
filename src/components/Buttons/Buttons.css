@@ -1,0 +1,30 @@
+.btn {
+  padding: 14px 53px 13px 51px;
+  border-radius: 4px;
+  color: #ffffff;
+  background-color: #4b72c2;
+}
+
+.btn:disabled {
+  opacity: 50%;
+  cursor: default;
+}
+
+/**/
+.btn__go {
+  position: relative;
+  line-height: 24px;
+  color: #4b72c2;
+}
+
+.btn__go::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: -22px;
+  width: 18px;
+  height: 18px;
+  transform: translateY(-50%);
+  background-image: url("../../assets/arrow-right.svg");
+  background-repeat: no-repeat;
+}

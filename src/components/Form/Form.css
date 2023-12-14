@@ -1,0 +1,22 @@
+.form {
+  padding-bottom: 50px;
+  border-bottom: 2px solid #3d3d3d;
+}
+
+.form__box {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-bottom: 50px;
+}
+
+.input {
+  padding: 14px 20px 15px 20px;
+  border-radius: 4px;
+  border: 1px solid;
+  border-color: #3d3d3d;
+}
+
+.blue {
+  border-color: #4b72c2;
+}
